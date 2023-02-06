@@ -1,0 +1,26 @@
+/* default.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: var(--bg);
+}
+
+:root {
+  --main: #163758;
+  --bg: #eeeeee;
+  --point: #f4ae3f;
+  --stroke: #273b5e;
+}
