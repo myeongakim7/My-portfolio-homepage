@@ -1,5 +1,6 @@
 /* style.css */
 
+/* header */
 .header {
   width: 100vw;
   height: 90px;
@@ -198,13 +199,13 @@
   font-size: 26px;
 }
 
-/* expetise */
+/* expertise */
 .expertise .container {
   width: 1520px;
-  height: 970px;
+  height: 496px;
   background-color: #fff;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
   border-right: 20px solid var(--stroke);
   display: flex;
   align-items: center;
@@ -217,70 +218,18 @@
   text-align: center;
   margin-bottom: 90px;
 }
-.progress-group {
-  width: 1092px;
-  height: 560px;
-  border: 1px solid red;
-}
 
-.progress-box {
-  width: 466px;
-  height: 95px;
-  margin-bottom: 60px;
-  /* display: inline-block; */
-}
-.progress-box-text {
+.skill-box {
+  /* border: 1px solid rebeccapurple; */
+  text-align: center;
   display: flex;
-  justify-content: space-between;
-}
-.progress-box .lang {
-  font-size: 32px;
-}
-.progress-box-text p {
-  font-size: 32px;
-  font-weight: 700;
-}
-@keyframes progress {
-  from {
-    width: 0;
-  }
-}
-.progress-bar {
-  width: 450px;
-  height: 15px;
-  margin-top: 10px;
-  background-color: #eaebeb;
-  border-radius: 5px;
+  gap: 70px;
 }
 
-.percentage {
-  display: block;
-  height: 100%;
-  background-color: var(--point);
-  border-radius: 5px;
-  animation: progress 1500ms ease-in 1;
+.skill .skill-img {
+  width: 60px;
+  height: 60px;
 }
-.html {
-  width: 90%;
-}
-.js {
-  width: 75%;
-}
-.jquery {
-  width: 90%;
-}
-.react {
-  width: 80%;
-}
-.node {
-  width: 70%;
-}
-.sql {
-  width: 70%;
-}
-.github {
-  width: 80%;
-}
-.figma {
-  width: 95%;
+.skill-box .skill .skill-img img {
+  width: 100%;
 }
