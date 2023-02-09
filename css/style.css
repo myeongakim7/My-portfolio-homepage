@@ -233,3 +233,38 @@
 .skill-box .skill .skill-img img {
   width: 100%;
 }
+
+/* portfolio */
+
+.portfolio {
+  background-color: var(--main);
+  height: 1448px;
+  /* width: 100vw; */
+}
+.portfolio .container {
+  width: 1520px;
+  height: 1448px;
+  margin: 0 auto;
+  padding: 50px 0 100px 0;
+}
+.portfolio .container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 90px;
+  color: #fff;
+}
+.portfolio .p-img-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+.portfolio .p-img-box .p-img {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+.portfolio .p-img-box .p-img img {
+  width: 100%;
+}
