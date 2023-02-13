@@ -72,17 +72,21 @@
   width: 100%;
   position: relative;
 }
+
 .main-banner2 .banner-box {
-  position: absolute;
-  left: 132px;
-  top: 225px;
 }
 .main-banner2 .banner-title {
+  line-height: normal;
 }
 
 .main-banner2 .banner-title h2 {
   color: #fff;
   font-size: 50px;
+  font-weight: 700;
+}
+.main-banner2 .banner-title h2 strong {
+  color: #fff;
+  font-size: 64px;
   font-weight: 700;
 }
 .main-banner2 .banner-button {
@@ -234,6 +238,19 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 90px;
+}
+
+.skill {
+  width: 80px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skill h3 {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .skill-box {
