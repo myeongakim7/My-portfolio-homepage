@@ -65,6 +65,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* main-banner */
+.main-banner2 {
+  position: relative;
+}
+.main-banner2 .banner-box {
+  position: absolute;
+  top: 125px;
+  left: 109px;
+}
+.main-banner2 .icon-box {
+  display: flex;
+  gap: 40px;
+}
+.main-banner2 .icon-box .icon {
+  width: 50px;
+  height: 50px;
+}
+.main-banner2 .icon-box a img {
+  width: 100%;
+}
 
 /* main-banner2 */
 .main-banner2 {
