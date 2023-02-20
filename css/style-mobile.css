@@ -46,7 +46,7 @@ html {
 #contents .main-banner1 .my-image1 {
   width: 250px;
   height: 238px;
-  background-image: url(/images/my-image.svg);
+  background-image: url(../images/my-image.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,7 +145,7 @@ html {
 #about .container {
   width: 280px;
   height: 950px;
-  background-image: url(/images/about-mobile.jpg);
+  background-image: url(../images/about-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -178,7 +178,7 @@ html {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background-image: url(/images/my-image2.jpg);
+  background-image: url(../images/my-image2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
