@@ -17,35 +17,33 @@
 
 <body>
   <header class="header">
-    <div class="header-logo">
-      <h1>
-        <a href="#">
-          <img class="logo" src="./images/logo.svg" alt="logo" />
-        </a>
-      </h1>
-    </div>
+    <di class="header-logo">
+      <a href="#">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+      </a>
+    </di>
     <div class="header-nav">
       <ul class="dep1_ul">
         <li class="dep1_li">
-          <a href="#">Home</a>
+          <a data-hover="Home" href="#">Home</a>
         </li>
         <li class="dep1_li">
-          <a href="#">About</a>
+          <a data-hover="About" href="#about">About</a>
         </li>
         <li class="dep1_li">
-          <a href="#">Expertise</a>
+          <a data-hover="Expertise" href="#expertise">Expertise</a>
         </li>
         <li class="dep1_li">
-          <a href="#">Portfolio</a>
+          <a data-hover="Portfolio" href="#portfolio">Portfolio</a>
         </li>
         <li class="dep1_li">
-          <a href="#">Contact</a>
+          <a data-hover="Contact" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
     <!--header-nav-->
   </header>
-  <div class="contents">
+  <div id="contents">
     <div class="main-banner1">
       <div class="my-image1"></div>
     </div>
@@ -58,20 +56,20 @@
             Frontend developer & Web publisher
           </h2>
         </div>
-        <div class="banner-button">
+        <div class="banner-button btn-push">
           <a href="#about">about me → </a>
         </div>
         <div class="icon-box">
           <div class="icon">
-            <a href="#">
+            <a href="https://instagram.com/myonaa_?igshid=YmMyMTA2M2Y=">
               <img src="./images/icon-instagram.svg" alt="instagram" />
             </a></div>
           <div class="icon">
-            <a href="#">
+            <a href="https://blog.naver.com/okmyonga">
               <img src="./images/icon-naver.svg" alt="naver-blog" />
             </a></div>
           <div class="icon">
-            <a href="#">
+            <a href="https://github.com/myeongakim7">
               <img src="./images/icon-github.svg" alt="github" />
             </a></div>
         </div>
@@ -84,7 +82,7 @@
   <!--contents-->
 
   <!-- About me -->
-  <div class="about">
+  <div id="about">
     <div class="container">
       <h1>About me</h1>
       <div class="intro-box">
@@ -148,7 +146,7 @@
   </div>
   <!--about-->
 
-  <div class="expertise">
+  <div id="expertise">
     <div class="container">
       <h1>Expertise</h1>
       <div class="skill-box">
@@ -214,7 +212,7 @@
     <!--container-->
   </div>
   <!--expertise-->
-  <div class="portfolio">
+  <div id="portfolio">
     <div class="container">
       <h1>Portfolio</h1>
       <div class="p-img-box">
@@ -240,7 +238,7 @@
     <!--container-->
   </div>
   <!--portfolio-->
-  <div class="contact">
+  <div id="contact">
     <div class="container">
       <h1>Contact me</h1>
       <div class="contact-box">
@@ -273,14 +271,20 @@
     </div>
     <!--ft.logo-->
     <div class="sns-icon-box">
-      <div class="sns-icon1">
-        <img src="./images/icon-instagram-footer.svg" alt="footer-insta">
+      <div class="sns-icon">
+        <a href="https://instagram.com/myonaa_?igshid=YmMyMTA2M2Y=">
+          <img src="./images/icon-instagram-footer.svg" alt="footer-insta">
+        </a>
       </div>
-      <div class="sns-icon2">
-        <img src="./images/icon-naver-footer.svg" alt="footer-naver">
+      <div class="sns-icon">
+        <a href="https://blog.naver.com/okmyonga">
+          <img src="./images/icon-naver-footer.svg" alt="footer-naver">
+        </a>
       </div>
-      <div class="sns-icon2">
-        <img src="./images/icon-github-footer.svg" alt="footer-github">
+      <div class="sns-icon">
+        <a href="https://github.com/myeongakim7">
+          <img src="./images/icon-github-footer.svg" alt="footer-github">
+        </a>
       </div>
       <!--sns-icon-->
     </div>
