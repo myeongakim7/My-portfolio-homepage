@@ -1,9 +1,5 @@
 /* mobile.css */
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* header */
 .header {
   width: 100vw;
@@ -72,14 +68,12 @@ html {
   align-items: center;
 }
 .main-banner2 .banner-title {
-  width: 218px;
-  height: 88px;
   line-height: 28px;
 }
 
 .main-banner2 .banner-title h2 {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .main-banner2 .banner-title h2 strong {
@@ -339,7 +333,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
 }
 #portfolio .p-img-box .p-img {
   width: 300px;
@@ -347,7 +341,12 @@ html {
 }
 #portfolio .p-img-box .p-img img {
   width: 100%;
-  height: 100%;
+  transform: scale(1);
+  transition: 0.5s ease;
+}
+
+#portfolio .p-img-box .p-img:hover img {
+  transform: scale(1.1);
 }
 
 /* contact */
