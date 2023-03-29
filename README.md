@@ -25,5 +25,5 @@
     <li>CSS 가상요소 ::before을 활용한 버튼, depth1 메뉴 이벤트 추가</li>
     <li>반응형 홈페이지 구현</li>
     <li>depth1 메뉴 클릭 시 CSS scroll smooth를 활용해 해당 페이지로 이동</li>
-    <li>버튼, 이미지 호버 시 각 종 효과 추가<
+    <li>버튼, 이미지 호버 시 각 종 효과 추가</li>
  </ul>
