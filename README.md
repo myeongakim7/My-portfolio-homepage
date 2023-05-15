@@ -1,5 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=260&section=header&text=Myeong%20A%20homepage&fontSize=50&animation=fadeIn&fontColor=fff&color=gradient&customColorList=0,2,2,2,2,3" />
-<h2>My portolio homepage</h2>
+<h2>My portfolio homepage</h2>
 
 <p>Demo: https://myeongakim7.github.io/My-portfolio-homepage/ <p>
 <p>Github: https://github.com/myeongakim7/My-portfolio-homepage.git</p>
