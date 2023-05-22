@@ -1,10 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=260&section=header&text=Myeong%20A%20homepage&fontSize=50&animation=fadeIn&fontColor=fff&color=gradient&customColorList=0,2,2,2,2,3" />
-<h2>My portfolio homepage</h2>
+<h2>My portfolio homepage(Static)</h2>
 
 <p>Demo: https://myeongakim7.github.io/My-portfolio-homepage/ <p>
 <p>Github: https://github.com/myeongakim7/My-portfolio-homepage.git</p>
 <p>Figma: <a href="https://www.figma.com/file/dQzmJWTLAJNzlVqLcpMi0s/%EA%B0%9C%EC%9D%B8-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8B%9C%EC%95%88?node-id=0%3A1&t=YdMhhoaTGx498YdA-1" >&nbsp;Click</a> </p>
-
+<p>REACT Version :https://web-react-my-portfolio-3a9t2bldtzerfu.sel3.cloudtype.app/ </p>
 <h2>Stack</h2>
 <div style="display:flex">
 <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
